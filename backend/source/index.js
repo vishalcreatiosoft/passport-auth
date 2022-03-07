@@ -6,11 +6,11 @@ const port = process.env.PORT || 5000;
 connectToMongo();
 
 
-app.get('/',(req, res)=>{
-    res.send('Welcome to passport.js');
+app.get('/', (req, res) => {
+    res.send('Welcome to passpor auth');
 })
 
 
-app.listen(port, ()=>{
-    console.log('server is started ...',port);
+app.listen(port, () => {
+    console.log('server is started ...', port);
 })
