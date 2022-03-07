@@ -7,6 +7,7 @@ connectToMongo();
 
 
 app.get('/', (req, res) => {
+    console.log('This route is working on express server')
     res.send('Welcome to authentication system');
 })
 
