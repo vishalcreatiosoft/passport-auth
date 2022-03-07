@@ -7,7 +7,7 @@ connectToMongo();
 
 
 app.get('/', (req, res) => {
-    res.send('Welcome to passpor auth');
+    res.send('Welcome to passpor auth js');
 })
 
 
